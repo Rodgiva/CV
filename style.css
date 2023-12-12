@@ -1,0 +1,381 @@
+body {
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.name h3 {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cv {
+  background: white;
+  display: block;
+  margin: 0 auto;
+  width: 21cm;
+  height: 29.7cm;
+}
+
+.poste > h3 {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
+}
+
+.page h5 {
+  color: #444444;
+}
+
+h6 {
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+}
+
+ul {
+  margin: 0;
+}
+
+p {
+  font-size: 0.85em;
+}
+
+.page p,
+.page li,
+.page h6 {
+  color: #595959;
+  font-size: 0.85em;
+  /* font-size: 0.9em; */
+}
+
+.experience_info {
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 5px;
+}
+
+progress::-moz-progress-bar {
+  background: #ffa600;
+  border-radius: 5px;
+}
+
+progress[value] {
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  border-radius: 5px;
+  background: #003d66;
+}
+
+.avatar {
+  border-radius: 50%;
+  border: 2px solid white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+}
+
+.bandleft {
+  width: 30%;
+  height: 100%;
+  background: #00609e;
+  color: white;
+  float: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.page {
+  height: 100%;
+  overflow: hidden;
+  background: white;
+}
+
+.bar {
+  height: 10px;
+  width: 100%;
+  margin-bottom: 0.5em;
+}
+
+.name {
+  margin-top: 0.5em;
+}
+
+.poste {
+  margin-top: 0.5em;
+}
+
+.contact {
+  margin: 0.8em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  display: flex;
+  flex-direction: column;
+  border-top: thin solid white;
+  border-bottom: thin solid white;
+}
+
+.fiche_info {
+  /* margin-bottom: 0.5em; */
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.title_fiche_info {
+  color: white;
+  background-color: #003d66;
+  padding-left: 0.5em;
+  margin-bottom: 0.75em;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-top: thin solid white;
+  border-bottom: thin solid white;
+}
+
+.langue {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.langue > h4 {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.content {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.content-languages {
+  margin-left: 10px;
+  margin-bottom: 1em;
+  display: flex;
+  flex-wrap: wrap;
+}
+.content-languages > h4 {
+  font-size: 14px;
+}
+
+.language {
+  border: thin solid white;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.microsoft {
+  background-color: rgb(255, 73, 73);
+}
+
+.php {
+  background-color: rgb(192, 0, 255);
+}
+
+.js {
+  background-color: rgb(255, 192, 0);
+}
+
+.database {
+  background-color: rgb(0, 218, 0);
+}
+
+.css {
+  background-color: rgb(26, 26, 151);
+}
+
+.centre-interet {
+  margin-top: 0em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.content_centre-interet {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.content_langue {
+  margin-bottom: 0.5em;
+}
+
+.contact_info {
+  display: flex;
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+  align-items: center;
+}
+
+.content-qualifications > h4 {
+  font-size: 13px;
+}
+
+.content-qualifications > p {
+  font-size: 13px;
+}
+
+.content-qualifications {
+  margin-bottom: 10px;
+}
+
+.vertical_center {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+}
+
+.vertical_center > p {
+  float: left;
+}
+
+.logo {
+  margin-right: 10px;
+}
+
+.profil {
+  background: #003d66;
+}
+
+.page_content {
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 1em;
+}
+
+.page_info_title {
+  padding-left: 1em;
+  background: #00609e;
+  color: white;
+}
+
+.experience {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.experience > .badges {
+  font-size: 10px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 2px;
+}
+
+.badge {
+  border: thin solid black;
+  border-radius: 10px;
+  margin: 0 5px;
+  padding: 4px 8px;
+  background-color: #89d0ff;
+  color: black;
+  font-weight: bold;
+}
+
+.experience:not(:first-child) {
+  border-top: thin solid #a7a7a7;
+}
+
+.experience_title {
+  color: #00609e;
+  font-size: 14px;
+}
+
+.experience_date > h5 {
+  font-size: 12px;
+}
+
+.experience_title > h5 {
+  font-size: 14px;
+}
+
+.formation {
+  padding-top: 0.5em;
+  display: flex;
+}
+
+.formation {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.formation_info {
+  width: 80%;
+}
+
+.formation_date {
+  width: 100px;
+  text-align: right;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.skill-lvl {
+  flex-direction: row;
+}
+
+.skills {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.dot {
+  border-radius: 100%;
+  width: 18px;
+  height: 18px;
+  margin-left: 9px;
+  background: #003d66;
+}
+
+.fill {
+  background: #ffa600;
+}
+
+.dots {
+  position: relative;
+  right: 0;
+  width: 100%;
+  flex-direction: row;
+}
+
+.skills h5 {
+  margin-right: auto;
+}
+
+.accroche {
+  margin: 20px;
+  /* text-align: justify; */
+  text-justify: auto;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 20px;
+}
